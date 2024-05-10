@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlipGiveSDK_dotnet", "FlipGiveSDK_dotnet\FlipGiveSDK_dotnet.csproj", "{8D9319B2-500E-4B76-B1F3-3D746D693045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_FlipGiveSDK_dotnet", "Test_FlipGiveSDK_dotnet\Test_FlipGiveSDK_dotnet.csproj", "{209AF0C2-82EC-4845-8F86-609C5B91658D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6259C8B-A0AD-4521-9B3F-FA7563A9E032}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9319B2-500E-4B76-B1F3-3D746D693045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9319B2-500E-4B76-B1F3-3D746D693045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9319B2-500E-4B76-B1F3-3D746D693045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9319B2-500E-4B76-B1F3-3D746D693045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209AF0C2-82EC-4845-8F86-609C5B91658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209AF0C2-82EC-4845-8F86-609C5B91658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209AF0C2-82EC-4845-8F86-609C5B91658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209AF0C2-82EC-4845-8F86-609C5B91658D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57403A81-DFB0-4748-9BCA-681EDC037D97}
+	EndGlobalSection
+EndGlobal
