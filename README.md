@@ -80,7 +80,7 @@ _services.UseFlipGiveRewards("[Id]", "[Secret]");
 
 You can consume the service in any of your classes, just add it to constructor
 ```C#
-private readonly _flipGiveRewardsService;
+private readonly FlipGiveRewardsService _flipGiveRewardsService;
 
 //constructor
 public MyClass(FlipGiveRewardsService flipGiveRewardsService) {

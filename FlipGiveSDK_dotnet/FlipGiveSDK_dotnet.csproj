@@ -15,6 +15,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Copyright>copyright 2023. FlipGive, inc. all rights reserved.</Copyright>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,9 +43,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Dependencies\jose-jwt.dll">
+      <Pack>true</Pack>
+      <PackagePath>lib\$(TargetFramework)</PackagePath>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="jose-jwt">
       <HintPath>..\libraries\jose-jwt.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Dependencies\jose-jwt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
