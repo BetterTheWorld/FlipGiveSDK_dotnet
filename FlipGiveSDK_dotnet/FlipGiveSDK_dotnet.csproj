@@ -3,7 +3,34 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>FlipGiveSDK dotnet</Title>
+    <Company>FlipGive</Company>
+    <Authors>FlipGive</Authors>
+    <Description>Rewards is FlipGive's drop-in cashback program. If you would like to know more please contact us at partners@flipgive.com.</Description>
+    <PackageProjectUrl>https://github.com/alosada/FlipGiveSDK_dotnet</PackageProjectUrl>
+    <PackageIcon>flipgive_icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/alosada/FlipGiveSDK_dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>copyright 2023. FlipGive, inc. all rights reserved.</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\flipgive_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
