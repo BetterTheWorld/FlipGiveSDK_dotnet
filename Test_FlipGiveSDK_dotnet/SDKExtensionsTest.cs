@@ -33,14 +33,14 @@ namespace Test_FlipGiveSDK_dotnet
             #region Act
 
             var flipGiveRewardsService = provider.GetRequiredService<FlipGiveRewardsService>();
-            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTUDgXxMAaOzBHEmlOYFZUuYxNwn6EwzDUbeqP_d7xdRr2tP0fkSoTJusQXaZtfl-6tocMvAGXUxrLIIAAQbSyRGszkCNBbOZSetElTe6FKQwLudRW_VrV4HGlZoNnuCb6CD7xR2kATiTAGPNNcqpe4hDWeCNUAfDHJ3ujsCwuXDbFiD4hinb6nEOiSgIjAaxsZfyQ6qVbIxBrbVRi_6fGMqrKrEQBNckv-Ps-MavLiURe6gX2JQQvC-1wIqdH42EdkW9G7eQWv_hz99GcYf-lX9UUczGK3CpHG1xLwYqKwdswnxdWzwPDRApCabAEcPhHODH2EAo59UGC4g26Gh9RbZdNdkfrvTJfZ9WIiURrgi01OSjG2CkxEbtnMYTkPhfmcMmKMn7IIiRo1zNmHS5xUn2eMpg.t11jsNvC6cNIgx6xHCHtBw@ABCDEFGH");
+            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTVPmWBoLaOrHGUy7OcgWVuI8fF_6RE_cRLyBd596y9Zg3NP3fjPuZYKgWGGMsf1kod9debMGHw9oKM1fAXGR9gSnmgiaBL2bQu1EljevCqR_Y_FQWulmB8LG7PkA_dOVt2-4ywyoGD6UOGnzJcr_INFbS6bGDhTODpXrjM2wvHbFA3y7x26XsT4oyn9arg67r8esFP2WaYhKqLVHlevOW5LsLr8WGJJx78i7rIqUNSxdPuQTlc1cqzK5jMTNJe7wdireNPHREfDaxtdcT8GlmjwfD5XecyO7H31yLAQkKxl6lSYOEHwPUl8lAbiWUr69SqKKky0t4tINec5rtzo7d6NCPdBFtfqdNNEWKidWoBD4-Oi0TSOmuBCv0Y0Blf1YktM4PpijZ8TJ80aA1ziO9n72P5VeHyoJevxd.VuoEQKhXl77XP70G0rowPQ@ABCDEFGH");
 
             #endregion
 
             #region Assert
 
             Assert.NotNull(payload);
-            Assert.Equal(1709224272, payload.UserData.Id);
+            Assert.Equal("1709224272", payload.UserData.Id);
 
             #endregion
         }
@@ -58,14 +58,14 @@ namespace Test_FlipGiveSDK_dotnet
             #region Act
 
             var flipGiveRewardsService = provider.GetRequiredService<FlipGiveRewardsService>();
-            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTUDgXxMAaOzBHEmlOYFZUuYxNwn6EwzDUbeqP_d7xdRr2tP0fkSoTJusQXaZtfl-6tocMvAGXUxrLIIAAQbSyRGszkCNBbOZSetElTe6FKQwLudRW_VrV4HGlZoNnuCb6CD7xR2kATiTAGPNNcqpe4hDWeCNUAfDHJ3ujsCwuXDbFiD4hinb6nEOiSgIjAaxsZfyQ6qVbIxBrbVRi_6fGMqrKrEQBNckv-Ps-MavLiURe6gX2JQQvC-1wIqdH42EdkW9G7eQWv_hz99GcYf-lX9UUczGK3CpHG1xLwYqKwdswnxdWzwPDRApCabAEcPhHODH2EAo59UGC4g26Gh9RbZdNdkfrvTJfZ9WIiURrgi01OSjG2CkxEbtnMYTkPhfmcMmKMn7IIiRo1zNmHS5xUn2eMpg.t11jsNvC6cNIgx6xHCHtBw@ABCDEFGH");
+            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTVPmWBoLaOrHGUy7OcgWVuI8fF_6RE_cRLyBd596y9Zg3NP3fjPuZYKgWGGMsf1kod9debMGHw9oKM1fAXGR9gSnmgiaBL2bQu1EljevCqR_Y_FQWulmB8LG7PkA_dOVt2-4ywyoGD6UOGnzJcr_INFbS6bGDhTODpXrjM2wvHbFA3y7x26XsT4oyn9arg67r8esFP2WaYhKqLVHlevOW5LsLr8WGJJx78i7rIqUNSxdPuQTlc1cqzK5jMTNJe7wdireNPHREfDaxtdcT8GlmjwfD5XecyO7H31yLAQkKxl6lSYOEHwPUl8lAbiWUr69SqKKky0t4tINec5rtzo7d6NCPdBFtfqdNNEWKidWoBD4-Oi0TSOmuBCv0Y0Blf1YktM4PpijZ8TJ80aA1ziO9n72P5VeHyoJevxd.VuoEQKhXl77XP70G0rowPQ@ABCDEFGH");
 
             #endregion
 
             #region Assert
 
             Assert.NotNull(payload);
-            Assert.Equal(1709224272, payload.UserData.Id);
+            Assert.Equal("1709224272", payload.UserData.Id);
 
             #endregion
         }
@@ -87,14 +87,14 @@ namespace Test_FlipGiveSDK_dotnet
             #region Act
 
             var flipGiveRewardsService = provider.GetRequiredService<FlipGiveRewardsService>();
-            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTUDgXxMAaOzBHEmlOYFZUuYxNwn6EwzDUbeqP_d7xdRr2tP0fkSoTJusQXaZtfl-6tocMvAGXUxrLIIAAQbSyRGszkCNBbOZSetElTe6FKQwLudRW_VrV4HGlZoNnuCb6CD7xR2kATiTAGPNNcqpe4hDWeCNUAfDHJ3ujsCwuXDbFiD4hinb6nEOiSgIjAaxsZfyQ6qVbIxBrbVRi_6fGMqrKrEQBNckv-Ps-MavLiURe6gX2JQQvC-1wIqdH42EdkW9G7eQWv_hz99GcYf-lX9UUczGK3CpHG1xLwYqKwdswnxdWzwPDRApCabAEcPhHODH2EAo59UGC4g26Gh9RbZdNdkfrvTJfZ9WIiURrgi01OSjG2CkxEbtnMYTkPhfmcMmKMn7IIiRo1zNmHS5xUn2eMpg.t11jsNvC6cNIgx6xHCHtBw@ABCDEFGH");
+            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTVPmWBoLaOrHGUy7OcgWVuI8fF_6RE_cRLyBd596y9Zg3NP3fjPuZYKgWGGMsf1kod9debMGHw9oKM1fAXGR9gSnmgiaBL2bQu1EljevCqR_Y_FQWulmB8LG7PkA_dOVt2-4ywyoGD6UOGnzJcr_INFbS6bGDhTODpXrjM2wvHbFA3y7x26XsT4oyn9arg67r8esFP2WaYhKqLVHlevOW5LsLr8WGJJx78i7rIqUNSxdPuQTlc1cqzK5jMTNJe7wdireNPHREfDaxtdcT8GlmjwfD5XecyO7H31yLAQkKxl6lSYOEHwPUl8lAbiWUr69SqKKky0t4tINec5rtzo7d6NCPdBFtfqdNNEWKidWoBD4-Oi0TSOmuBCv0Y0Blf1YktM4PpijZ8TJ80aA1ziO9n72P5VeHyoJevxd.VuoEQKhXl77XP70G0rowPQ@ABCDEFGH");
 
             #endregion
 
             #region Assert
 
             Assert.NotNull(payload);
-            Assert.Equal(1709224272, payload.UserData.Id);
+            Assert.Equal("1709224272", payload.UserData.Id);
 
             #endregion
         }
@@ -112,14 +112,14 @@ namespace Test_FlipGiveSDK_dotnet
             #region Act
 
             var flipGiveRewardsService = provider.GetRequiredService<FlipGiveRewardsService>();
-            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTUDgXxMAaOzBHEmlOYFZUuYxNwn6EwzDUbeqP_d7xdRr2tP0fkSoTJusQXaZtfl-6tocMvAGXUxrLIIAAQbSyRGszkCNBbOZSetElTe6FKQwLudRW_VrV4HGlZoNnuCb6CD7xR2kATiTAGPNNcqpe4hDWeCNUAfDHJ3ujsCwuXDbFiD4hinb6nEOiSgIjAaxsZfyQ6qVbIxBrbVRi_6fGMqrKrEQBNckv-Ps-MavLiURe6gX2JQQvC-1wIqdH42EdkW9G7eQWv_hz99GcYf-lX9UUczGK3CpHG1xLwYqKwdswnxdWzwPDRApCabAEcPhHODH2EAo59UGC4g26Gh9RbZdNdkfrvTJfZ9WIiURrgi01OSjG2CkxEbtnMYTkPhfmcMmKMn7IIiRo1zNmHS5xUn2eMpg.t11jsNvC6cNIgx6xHCHtBw@ABCDEFGH");
+            var payload = flipGiveRewardsService.ReadToken("eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4R0NNIiwiaXYiOiJwazBQRWdLOEZPb3V6SkdMIn0..pk0PEgK8FOouzJGL.0huaJ53q5Lqbs6OX5_THSGQiTVPmWBoLaOrHGUy7OcgWVuI8fF_6RE_cRLyBd596y9Zg3NP3fjPuZYKgWGGMsf1kod9debMGHw9oKM1fAXGR9gSnmgiaBL2bQu1EljevCqR_Y_FQWulmB8LG7PkA_dOVt2-4ywyoGD6UOGnzJcr_INFbS6bGDhTODpXrjM2wvHbFA3y7x26XsT4oyn9arg67r8esFP2WaYhKqLVHlevOW5LsLr8WGJJx78i7rIqUNSxdPuQTlc1cqzK5jMTNJe7wdireNPHREfDaxtdcT8GlmjwfD5XecyO7H31yLAQkKxl6lSYOEHwPUl8lAbiWUr69SqKKky0t4tINec5rtzo7d6NCPdBFtfqdNNEWKidWoBD4-Oi0TSOmuBCv0Y0Blf1YktM4PpijZ8TJ80aA1ziO9n72P5VeHyoJevxd.VuoEQKhXl77XP70G0rowPQ@ABCDEFGH");
 
             #endregion
 
             #region Assert
 
             Assert.NotNull(payload);
-            Assert.Equal(1709224272, payload.UserData.Id);
+            Assert.Equal("1709224272", payload.UserData.Id);
 
             #endregion
         }

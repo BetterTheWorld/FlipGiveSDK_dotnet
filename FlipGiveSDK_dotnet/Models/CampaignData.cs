@@ -14,7 +14,7 @@ namespace FlipGiveSDK_dotnet.Models
         /// required A string representing the user's ID in your system.
         /// </summary>
         [JsonPropertyName("id")]
-        public long Id { get; set; }
+        public string Id { get; set; }
         /// <summary>
         /// required A string with the campaign's email.
         /// </summary>
@@ -54,12 +54,12 @@ namespace FlipGiveSDK_dotnet.Models
         /// optional. A float with the campaign's latitude in decimal degree format.
         /// </summary>
         [JsonPropertyName("latitude")]
-        public int? Latitude { get; set; }
+        public float? Latitude { get; set; }
         /// <summary>
         /// optional. A float with the campaign's longitude in decimal degree format.
         /// </summary>
         [JsonPropertyName("longitude")]
-        public int? Longitude { get; set; }
+        public float? Longitude { get; set; }
         /// <summary>
         /// optional. A string containing the URL for the campaign's image, if any.
         /// </summary>

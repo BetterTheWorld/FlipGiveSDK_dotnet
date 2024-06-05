@@ -35,20 +35,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -90,7 +90,7 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
@@ -131,13 +131,13 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -251,13 +251,13 @@ namespace Test_FlipGiveSDK_dotnet.Methods
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -300,19 +300,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -355,19 +355,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -410,19 +410,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -465,20 +465,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "ROM"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -521,7 +521,7 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
@@ -533,7 +533,7 @@ namespace Test_FlipGiveSDK_dotnet.Methods
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -576,19 +576,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -631,19 +631,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -686,19 +686,19 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -741,20 +741,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "ROM",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -797,20 +797,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -857,20 +857,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -881,7 +881,7 @@ namespace Test_FlipGiveSDK_dotnet.Methods
                     Name = "Organization156",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -924,20 +924,20 @@ namespace Test_FlipGiveSDK_dotnet.Methods
             {
                 UserData = new UserData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Marty 1709224272",
                     Email = "marty_1709224272@timetravel.io",
                     Country = "CAN"
                 },
                 CampaignData = new CampaignData()
                 {
-                    Id = 1709224272,
+                    Id = "1709224272",
                     Name = "Campaign1709224272",
                     Category = "Running",
                     Country = "CAN",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"
@@ -948,7 +948,7 @@ namespace Test_FlipGiveSDK_dotnet.Methods
                     Id = "Organization156",
                     AdminData = new UserData()
                     {
-                        Id = 1709224272,
+                        Id = "1709224272",
                         Name = "Marty 1709224272",
                         Email = "marty_1709224272@timetravel.io",
                         Country = "CAN"

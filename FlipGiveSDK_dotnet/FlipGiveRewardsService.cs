@@ -182,7 +182,10 @@ namespace FlipGiveSDK_dotnet
             ValidatePresence("name", jsonProperty, campaignData.Name);
             ValidatePresence("category", jsonProperty, campaignData.Category);
             ValidateInclusion("country", jsonProperty, campaignData.Country, COUNTRIES);
-            ValidatePersonData(campaignData.AdminData, "campaign_admin_data");
+            if(campaignData.AdminData != null)
+            {
+                ValidatePersonData(campaignData.AdminData, "campaign_admin_data");
+            }
         }
 
         /// <summary>

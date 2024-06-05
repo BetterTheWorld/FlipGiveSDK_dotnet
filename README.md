@@ -140,7 +140,7 @@ Let's look at each one of them:
   ```C#
   var userData = new UserData()
         {
-            Id = 19850703,
+            Id = "19850703",
             Name = "Emmett Brown",
             Email = "ebrown@time.com",
             Country = "USA"
@@ -167,7 +167,7 @@ Optional fields of invalid formats will not be validated but will be ignored.
   ```C#
   var campaignData = new CampaignData()
         {
-            Id = 19551105,
+            Id = "19551105",
             Name = "The Time Travelers",
             Category = "Events & Trips",
             Country = "USA",
@@ -194,7 +194,7 @@ Optional fields of invalid formats will not be validated but will be ignored.
   ```C#
   var organizationData = new OrganizationData()
         {
-            Id = 980,
+            Id = "980",
             Name = 'Back to the Future',
             AdminData = userData
         }
@@ -271,11 +271,11 @@ catch (RequiredFieldOutsideOfInclusionException ex)
 
 ### Support
 
-For developer support please open an [issue](https://github.com/alosada/FlipGiveSDK_dotnet/issues) on this repository.
+For developer support please open an [issue](https://github.com/BetterTheWorld/FlipGiveSDK_dotnet/issues) on this repository.
 
 ### Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/alosada/FlipGiveSDK_dotnet](https://github.com/alosada/FlipGiveSDK_dotnet).
+Bug reports and pull requests are welcome on GitHub at [https://github.com/BetterTheWorld/FlipGiveSDK_dotnet](https://github.com/BetterTheWorld/FlipGiveSDK_dotnet).
 
 ## License
 

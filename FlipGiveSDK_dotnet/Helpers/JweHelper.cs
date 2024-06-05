@@ -43,7 +43,7 @@ namespace FlipGiveSDK_dotnet.Helpers
         {
             var options = new JsonSerializerOptions
             {
-                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+                IgnoreNullValues = true,
             };
             var jsonString = JsonSerializer.Serialize(payload, options);
 
@@ -67,7 +67,7 @@ namespace FlipGiveSDK_dotnet.Helpers
         {
             var options = new JsonSerializerOptions
             {
-                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+                IgnoreNullValues = true
             };
             var jsonString = JsonSerializer.Serialize(payload, options);
 

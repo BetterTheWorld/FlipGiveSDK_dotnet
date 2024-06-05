@@ -17,7 +17,7 @@ namespace FlipGiveSDK_dotnet.Models
         [JsonPropertyName("type")]
         public string Type { get; set; }
         [JsonPropertyName("expires")]
-        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+        [JsonIgnore]
         public int Expires { get; set; }
     }
 }
