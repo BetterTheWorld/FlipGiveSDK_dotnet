@@ -15,7 +15,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Copyright>copyright 2023. FlipGive, inc. all rights reserved.</Copyright>
-    <Version>3.1.2</Version>
+    <Version>3.1.6</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,7 +39,7 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.32" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.32" />
     <PackageReference Include="System.Security.Cryptography.Cng" Version="5.0.0" />
-    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+    <PackageReference Include="System.Text.Json" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
